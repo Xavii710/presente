@@ -76,7 +76,6 @@ int main(int argc, char const *argv[]){
 
         if(sta->pla.ent.dead==1){
           if (vez_repetida<1){
-            highscore_update(&playerScore);
             StopMusicStream(music);
             PlaySound(death);
             vez_repetida++;
